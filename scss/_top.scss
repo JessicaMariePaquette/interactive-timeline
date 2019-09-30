@@ -1,26 +1,66 @@
-.top{
-	text-align: center;
-	background-image: url(../img/bg.jpg);
+@media only screen and (max-width: 60em) {
+
+   #top h1{ font-size: 2em;
+   margin-top: -7rem; }
+   #top h2{ font-size: 1.5em;
+   margin-top: -5rem}
+   #top h3{ font-size: 1em;
+   margin-top: -3rem}
+
+}
+@media only screen and (min-width: 40em){
 	
+	#top{
+   height: 100vh; 
+                width: 100vw;
+
+
+
+   }
+}
+
+ #top { 
+ 	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+                padding-top: 250px;                  
+                margin: 0px;    
+                text-align: center;
+
 }
 
 .top h1{
+position: relative;
+top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 	font-family: 'Charline', cursive;
 	color: #EC8CB9;
-	padding-top:20rem;
+
 }
 
 .top h2{
-	font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans' , sans-serif;
 	color: #B091C3;
-	margin-top:-1rem;
+position: relative;
+top: 57%;
+  left: 50%;
+  transform: translate(-50%, -57%);
+	
 }
 
 .top h3{
-	font-family: 'Open Sans', sans-serif;
-	margin-top: 7rem;
-	padding-bottom:20rem;
+font-family: 'Open Sans', sans-serif;
+	color: #000;
+position: relative;
+top: 63%;
+  left: 50%;
+  transform: translate(-50%, -63%);
+	
 }
+
+
 
 nav{
 

@@ -1,0 +1,31 @@
+@media only screen and (min-width: 40em){
+.menu{
+	position: fixed;
+	top: 25rem;
+	left: 90%;
+}
+}
+
+@media only screen and (max-width: 60em){  
+.menu{
+	display: none;
+}
+}
+
+
+a:link {
+	color: #000;
+}
+
+a:visited{
+	color: #000;
+}
+
+a:hover {
+	color:#EC8CB9;
+}
+
+a:active{
+	color:#B091C3;
+	font-weight: bold;
+}
