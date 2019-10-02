@@ -5,27 +5,38 @@
 	left: 90%;
 }
 }
-
+	
 @media only screen and (max-width: 60em){  
 .menu{
 	display: none;
 }
+
 }
 
 
-a:link {
+.menu{
+	z-index: 2;
+	background-color:rgba(255,255,255, .8);
+}
+
+.menu li{
+	font-family: 'Open Sans', sans-serif;
+}
+
+a:link{
 	color: #000;
 }
 
 a:visited{
-	color: #000;
+	color:#000;
 }
 
-a:hover {
-	color:#EC8CB9;
+a:hover{
+	color:#EC8CB9;;
 }
 
-a:active{
+a:focus{
 	color:#B091C3;
-	font-weight: bold;
+  font-weight: bold;
+
 }

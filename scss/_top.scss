@@ -5,7 +5,9 @@
    #top h2{ font-size: 1.5em;
    margin-top: -5rem}
    #top h3{ font-size: 1em;
-   margin-top: -3rem}
+   margin-top: -3rem;
+   padding-bottom: 10rem;
+ }
 
 }
 @media only screen and (min-width: 40em){
@@ -60,10 +62,3 @@ top: 63%;
 	
 }
 
-
-
-nav{
-
-	content-align: right;
-	
-}
