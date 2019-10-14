@@ -1,2 +1,4 @@
 $(document).foundation()
 
+AOS.init();
+
